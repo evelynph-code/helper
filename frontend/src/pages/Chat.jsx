@@ -26,7 +26,7 @@ export default function Chat() {
         fetchMessages()
 
         const token = localStorage.getItem('token')
-        socketRef.current = io('http://localhost:4000', {
+        socketRef.current = io(import.meta.env.VITE_API_URL || 'http://localhost:4000', {
             auth: {token}
         })
 
