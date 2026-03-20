@@ -6,7 +6,7 @@ const http = require('http')
 const {Server} = require('socket.io')
 const path = require ('path')
 const jwt = require('jsonwebtoken')
-const {PrismaClient} = require('.../generated/prisma')
+const {PrismaClient} = require('../generated/prisma')
 const {PrismaPg} = require('@prisma/adapter-pg')
 
 const authRoutes = require('./routes/auth')
