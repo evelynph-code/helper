@@ -28,7 +28,7 @@ const io = new Server(server, {
                 'http://localhost:5174',
                 'http://localhost:5175',
                 'http://localhost:5176',
-                'helper-8p8yqatyg-evelynph-codes-projects.vercel.app'  
+                'https://helper-chi-three.vercel.app',
         ],
         methods: ['GET', 'POST']}
 })
