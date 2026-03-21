@@ -31,7 +31,7 @@ const sendVolunteerEmail = async (ownerEmail, ownerName, helperName, taskTitle) 
           <p style="color: #6b46c1; font-weight: bold; margin: 0;">${taskTitle}</p>
         </div>
         <p style="color: #555;">Log in to chat with them and decide if you'd like to accept!</p>
-        <a href="https://helper-sandy-omega.vercel.app/dashboard" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
+        <a href="https://helper-chi-three.vercel.app/dashboard" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
           View on dashboard
         </a>
         <p style="color: #aaa; font-size: 12px; margin-top: 20px;">helper. — connecting neighbors, one task at a time.</p>
@@ -55,7 +55,7 @@ const sendAcceptEmail = async (helperEmail, helperName, ownerName, taskTitle) =>
           <p style="color: #6b46c1; font-weight: bold; margin: 0;">${taskTitle}</p>
         </div>
         <p style="color: #555;">Head to the chat to coordinate the details!</p>
-        <a href="https://helper-sandy-omega.vercel.app/dashboard" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
+        <a href="https://helper-chi-three.vercel.app/dashboard" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
           Go to dashboard
         </a>
         <p style="color: #aaa; font-size: 12px; margin-top: 20px;">helper. — connecting neighbors, one task at a time.</p>
@@ -76,7 +76,7 @@ const sendDeclineEmail = async (helperEmail, helperName, taskTitle) => {
         <h2 style="color: #6b46c1;">Hi ${helperName},</h2>
         <p style="color: #555;">Unfortunately your offer to help with <strong>${taskTitle}</strong> was not accepted this time.</p>
         <p style="color: #555;">Don't worry — there are plenty of other tasks waiting for your help!</p>
-        <a href="https://helper-sandy-omega.vercel.app/browse" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
+        <a href="https://helper-chi-three.vercel.app/browse" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
           Browse more tasks
         </a>
         <p style="color: #aaa; font-size: 12px; margin-top: 20px;">helper. — connecting neighbors, one task at a time.</p>
@@ -99,7 +99,7 @@ const sendMessageEmail = async (recipientEmail, recipientName, senderName, taskT
         <div style="background: #F5F3FF; padding: 16px; border-radius: 12px; margin: 16px 0;">
           <p style="color: #6b46c1; font-weight: bold; margin: 0;">${taskTitle}</p>
         </div>
-        <a href="https://helper-sandy-omega.vercel.app/chat/${exchangeId}" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
+        <a href="https://helper-chi-three.vercel.app/chat/${exchangeId}" style="display: inline-block; background: #B197FC; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; margin-top: 10px;">
           Reply in chat
         </a>
         <p style="color: #aaa; font-size: 12px; margin-top: 20px;">helper. — connecting neighbors, one task at a time.</p>
